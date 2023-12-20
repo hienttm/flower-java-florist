@@ -1,0 +1,15 @@
+﻿@model JavaFlorist.ViewModels.StarRate
+
+<div class="d-flex mb-4">
+    @for (var item = 1; item <= 5; item++)
+    {
+        if (item <= Model.star)
+        {
+            <i class="fa fa-star text-warning"></i>
+        }
+        else
+        {
+            <i class="fa fa-star text-mute"></i>
+        }
+    }
+</div>

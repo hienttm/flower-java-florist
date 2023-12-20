@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/JavaFlorist.csproj": {}
+    "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/JavaFlorist.csproj": {}
   },
   "projects": {
-    "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/JavaFlorist.csproj": {
+    "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/JavaFlorist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/JavaFlorist.csproj",
+        "projectUniqueName": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/JavaFlorist.csproj",
         "projectName": "JavaFlorist",
-        "projectPath": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/JavaFlorist.csproj",
-        "packagesPath": "/Users/tranthimaihien/.nuget/packages/",
-        "outputPath": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/obj/",
+        "projectPath": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/JavaFlorist.csproj",
+        "packagesPath": "/Users/hieuhee/.nuget/packages/",
+        "outputPath": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tranthimaihien/.nuget/NuGet/NuGet.Config"
+          "/Users/hieuhee/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.310/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +38,34 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

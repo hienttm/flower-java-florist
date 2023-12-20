@@ -1,0 +1,57 @@
+﻿@model JavaFlorist.ViewModels.UserViewModel
+
+<div class="container-fluid py-5 mt-5">
+    <div class="container py-5">
+        <div class="row g-4 mb-5">
+
+            <div class="col-md-3">
+                <!-- sidebar -->
+               @await Html.PartialAsync("Sidebar",Model)
+                <!-- End sidebar -->
+            </div>
+            <div class="col-md-9">
+                <div class="container-fluid contact py-5">
+                    <div class="container py-5">
+                        <div class="p-5 bg-light rounded">
+
+                            <div class="row g-4">
+                                <div class="col-12 pt-3">
+                                    <h1>Trang Ho So</h1>
+                                </div>
+                                <div class="col-lg-12">
+                                    <span>Tên đăng nhập </span>
+                                    <span class="fw-bold ms-2">@Model.Username </span>
+                                </div>
+                                <form asp-action="Index" asp-controller="Profile" asp-route-Id="@Model.Id" class="d-flex" enctype="multipart/form-data">
+                                    <div class="col-lg-7">
+                                        <input asp-for="@Model.Username" type="text" class="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name">
+                                        <input asp-for="@Model.Email" type="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email">
+                                        <input asp-for="@Model.Phone" class="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Phone ">
+                                        <select class="form-select" asp-for="Gender" aria-label="Default select example">
+                                            <option selected>Giới Tính</option>
+                                            <option value="1">Nam</option>
+                                            <option value="2">Nữ</option>
+                                        </select>
+                                        <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary mt-5 " type="submit">Save</button>
+
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="d-flex flex-column p-4 mb-4 align-items-center">
+                                            <div style="width:186px">
+                                                <img style="width:100%; object-fit:cover; overflow" class="" src="~/img/customer/@Model.Avatar" alt="">
+                                            </div>
+                                            <div class="mt-3">
+                                                <input type="file" name="Avatar" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

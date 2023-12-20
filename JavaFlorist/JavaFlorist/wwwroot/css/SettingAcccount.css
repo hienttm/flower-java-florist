@@ -1,0 +1,6 @@
+﻿.account-seting {
+    display: none;
+}
+.account:hover .account-seting {
+    display: block;
+}

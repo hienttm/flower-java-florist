@@ -1,0 +1,23 @@
+﻿@model JavaFlorist.ViewModels.UserViewModel
+
+<div class="sidebar" style="width: 300px;margin-top: 180px;">
+    <div>
+        <img class="rounded-circle" src="~/img/customer/@Model.Avatar" alt="" style="width: 65px;height: 65px; object-fit:cover; overflow:hidden">
+        <span class="fw-bold ms-3">@Model.Username</span>
+    </div>
+    <hr>
+    <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" asp-action="Index" asp-controller="Profile"><i class="bi bi-person"></i> Tài khoản của tôi</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-action="CustomerOrder" asp-controller="Profile"><i class="bi bi-receipt"></i> Đơn đã mua</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sản phẩm</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Liên hệ</a>
+        </li>
+    </ul>
+</div>

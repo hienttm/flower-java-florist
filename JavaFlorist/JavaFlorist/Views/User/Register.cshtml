@@ -1,0 +1,79 @@
+﻿@{
+    Layout = "_LayoutUser";
+}
+@model JavaFlorist.ViewModels.UserViewModel
+
+<div class="wrapper account-user">
+    <div class="inner shadow-sm p-3 mb-5 bg-body rounded">
+        <div class="image-holder">
+            <img src="~/account/images/bg-small-account.jpeg" alt="">
+        </div>
+        <form asp-action="Register" asp-controller="User" enctype="multipart/form-data">
+            <h3>Registration Form</h3>
+            <div class="form-wrapper">
+                <label asp-for="@Model.Firstname" class="form-label my-1"></label>
+                <input asp-for="Firstname" class="form-control mb-2">
+                <span asp-validation-for="@Model.Firstname" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.Lastname" class="form-label my-1"></label>
+                <input asp-for="Lastname" class="form-control mb-2">
+                <span asp-validation-for="@Model.Lastname" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.Username" class="form-label my-1"></label>
+                <input asp-for="Username" class="form-control mb-2">
+                <span asp-validation-for="@Model.Username" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.Email" class="form-label my-1"></label>
+                <input asp-for="Email" class="form-control mb-2">
+                <span asp-validation-for="@Model.Username" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.Password" class="form-label my-1"></label>
+                <input asp-for="Password" class="form-control mb-2">
+                <span asp-validation-for="@Model.Password" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.BirthDay" class="form-label my-1"></label>
+                <input asp-for="BirthDay" class="form-control mb-3">
+                <span asp-validation-for="@Model.BirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <select asp-for="Gender" class="form-control">
+                    <option value="1"> Man </option>
+                    <option value="0"> Girl </option>
+                </select>
+                <i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.Phone" class="form-label my-1"></label>
+                <input asp-for="Phone" class="form-control mb-2">
+                <span asp-validation-for="@Model.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.Address" class="form-label my-1"></label>
+                <input asp-for="Address" class="form-control mb-2">
+                <span asp-validation-for="@Model.Address" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="@Model.City" class="form-label my-1"></label>
+                <input asp-for="City" class="form-control mb-2">
+                <span asp-validation-for="@Model.City" class="text-danger"></span>
+            </div>
+            <div>
+                <label class="form-label my-3" for="Avatar">Image</label><sup>*</sup>
+                <input type="file" name="Avatar" class="form-control">
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <button type="submit">
+                    Register
+                </button>
+                <button>
+                    <a asp-action="Login" asp-controller="User">Login</a>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -2,10 +2,59 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Repository\" />
+    <None Remove="Views\Product\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Sidebar\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Helpers\" />
+    <None Remove="Views\Cart\" />
+    <None Remove="Views\Shared\Components\Cart\" />
+    <None Remove="Views\User\" />
+    <None Remove="Views\Profile\" />
+    <None Remove="Views\Shared\Components\Star\" />
+    <None Remove="Services\" />
+    <None Remove="Views\Shared\Components\FeaturedProducts\" />
+    <None Remove="Views\Shared\Components\RelatedProducts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Sidebar\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Views\Cart\" />
+    <Folder Include="Views\Shared\Components\Cart\" />
+    <Folder Include="Views\User\" />
+    <Folder Include="wwwroot\img\customer\" />
+    <Folder Include="Views\Profile\" />
+    <Folder Include="Views\Shared\Components\Star\" />
+    <Folder Include="Services\" />
+    <Folder Include="Views\Shared\Components\FeaturedProducts\" />
+    <Folder Include="Views\Shared\Components\RelatedProducts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\img\customer\" />
+  </ItemGroup>
 </Project>
