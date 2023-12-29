@@ -30,11 +30,17 @@ namespace JavaFlorist.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Order")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<string>("Slug")
@@ -46,6 +52,8 @@ namespace JavaFlorist.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ProductId");
+
                     b.ToTable("BannerContents");
                 });
 
@@ -56,6 +64,9 @@ namespace JavaFlorist.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Images")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -149,6 +160,9 @@ namespace JavaFlorist.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
+                    b.Property<int>("OrderStatusId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(14,2)");
 
@@ -161,6 +175,8 @@ namespace JavaFlorist.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId");
+
+                    b.HasIndex("OrderStatusId");
 
                     b.HasIndex("ProductId");
 
@@ -193,9 +209,6 @@ namespace JavaFlorist.Migrations
                     b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("OrderStatusId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
@@ -218,8 +231,6 @@ namespace JavaFlorist.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("OrderStatusId");
 
                     b.HasIndex("UsersId");
 
@@ -255,6 +266,9 @@ namespace JavaFlorist.Migrations
 
                     b.Property<string>("Content")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CountBuy")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("Created_at")
                         .HasColumnType("datetime2");
@@ -306,11 +320,17 @@ namespace JavaFlorist.Migrations
                     b.Property<string>("Comment")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<int>("Star")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -338,19 +358,10 @@ namespace JavaFlorist.Migrations
                     b.Property<string>("Avatar")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("BirthDay")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("Create_at")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Firstname")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Gender")
@@ -358,9 +369,6 @@ namespace JavaFlorist.Migrations
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
-
-                    b.Property<string>("Lastname")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
@@ -382,11 +390,28 @@ namespace JavaFlorist.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("JavaFlorist.Models.BannerContentModel", b =>
+                {
+                    b.HasOne("JavaFlorist.Models.ProductModel", "Product")
+                        .WithMany("BannerContentModels")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("JavaFlorist.Models.OrderDetailModel", b =>
                 {
                     b.HasOne("JavaFlorist.Models.OrderModel", "Order")
                         .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("JavaFlorist.Models.OrderStatusModel", "OrderStatus")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderStatusId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -398,20 +423,16 @@ namespace JavaFlorist.Migrations
 
                     b.Navigation("Order");
 
+                    b.Navigation("OrderStatus");
+
                     b.Navigation("Product");
                 });
 
             modelBuilder.Entity("JavaFlorist.Models.OrderModel", b =>
                 {
-                    b.HasOne("JavaFlorist.Models.OrderStatusModel", "OrderStatus")
-                        .WithMany("Orders")
-                        .HasForeignKey("OrderStatusId");
-
                     b.HasOne("JavaFlorist.Models.UserModel", "Users")
                         .WithMany("OrderModels")
                         .HasForeignKey("UsersId");
-
-                    b.Navigation("OrderStatus");
 
                     b.Navigation("Users");
                 });
@@ -469,11 +490,13 @@ namespace JavaFlorist.Migrations
 
             modelBuilder.Entity("JavaFlorist.Models.OrderStatusModel", b =>
                 {
-                    b.Navigation("Orders");
+                    b.Navigation("OrderDetails");
                 });
 
             modelBuilder.Entity("JavaFlorist.Models.ProductModel", b =>
                 {
+                    b.Navigation("BannerContentModels");
+
                     b.Navigation("OrderDetails");
 
                     b.Navigation("Rates");

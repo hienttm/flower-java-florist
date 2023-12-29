@@ -1,0 +1,36 @@
+﻿@model IEnumerable<UserViewModel>
+
+<div id="page-wrapper">
+    <div class="main-page">
+        <h4>List Genre</h4>
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Avatar</th>
+                    <th scope="col">Name User</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Manager</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var i = 0;
+                }
+                @foreach (var item in Model)
+                {
+                    i++;
+                    <tr>
+                        <th scope="row">@i</th>
+                        <td style="width:10%; height:150px"><img style="height:100%; width:100%; object-fit:cover" src="~/img/customer/@item.Avatar" /></td>
+                        <td>@item.Username</td>
+                        <td>@item.Email</td>
+                        <td>@item.Roles</td>
+                        <td><button type="button" class="btn btn-primary"><a asp-action="ChangePassword" asp-controller="AccountMangager" asp-route-Id="@item.Id" class="text-white">Change Password</a></button> | <button type="button" class="btn btn-danger"><a class="text-white" asp-action="DeleteAccount" asp-controller="AccountMangager" asp-route-Id="@item.Id">Delete Account</a></button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

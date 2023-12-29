@@ -14,8 +14,11 @@ namespace JavaFlorist.ViewModels
         public decimal Price { get; set; }
         [Column(TypeName = "decimal(14,2)")]
         public decimal Discount { get; set; }
+		public int DiscountId { get; set; }
 		public string Image { get; set; }
 		public string Occasion { get; set; }
+		public int OccasionId { get; set; }
+		public int Status { get; set; }
 	}
 }
 

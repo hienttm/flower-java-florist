@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
 namespace JavaFlorist.ViewModels
@@ -7,56 +8,50 @@ namespace JavaFlorist.ViewModels
 	public class UserViewModel
 	{
         public int Id { get; set; }
-        [Display(Name = "First Name")]
-        [Required(ErrorMessage = "*")]
-        [MaxLength(20,ErrorMessage = "Max value 20 key")]
-        public string Firstname { get; set; }
-
-        [Display(Name = "Last Name")]
-        [Required(ErrorMessage = "*")]
-        [MaxLength(20, ErrorMessage = "Max value 20 key")]
-        public string Lastname { get; set; }
 
         [Display(Name = "User Name")]
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Plase Input UserName")]
         [MaxLength(30, ErrorMessage = "Max value 20 key")]
         public string Username { get; set; }
 
         [Display(Name = "Email")]
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Please Input Email")]
         [EmailAddress(ErrorMessage = "Not in correct format")]
         public string Email { get; set; }
 
         [Display(Name = "Password")]
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Please input password")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-
-        [Display(Name = "Birth Day")]
-        [Required(ErrorMessage = "*")]
-        [DataType(DataType.Date)]
-        public DateTime BirthDay { get; set; }
-
         [Display(Name = "Sex")]
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Please Input Sex")]
         public int Gender { get; set; }
 
         [Display(Name = "Phone Number")]
         [MaxLength(24, ErrorMessage = "Max 24 Key")]
-        [RegularExpression(@"0[9875]\d{8}", ErrorMessage = "Not in correct format number phone VietNam")]
+        [RegularExpression(@"0[329875]\d{8}", ErrorMessage = "Not in correct format number phone VietNam")]
         public string Phone { get; set; }
 
         [Display(Name = "Address")]
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "Please input Address")]
         public string Address { get; set; }
-
-        [Display(Name = "City")]
-        [Required(ErrorMessage = "*")]
-        public string City { get; set; }
 
         [Display(Name = "Avatar")]
         public string Avatar { get; set; }
+
+        [NotMapped]
+        [FileExtensions]
+        public IFormFile ImageUpload { get; set; }
+
+        public string Roles { get; set; }
+
+
+        [Display(Name = "ReapeatPassword")]
+        [Required(ErrorMessage = "Please input ReapeatPassword")]
+        [DataType(DataType.Password)]
+        public string? ReapeatPassword { get; set; }
+       
     }
 }
 

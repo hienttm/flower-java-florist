@@ -14,6 +14,8 @@ namespace JavaFlorist.Models
         public UserModel User { get; set; } = null!;
 		public string Comment { set; get; }
 		public int Star { set; get; } = 0;
+		public DateTime CreateTime { set; get; }
+		public DateTime UpdateTime { set; get; }
     }
 }
 

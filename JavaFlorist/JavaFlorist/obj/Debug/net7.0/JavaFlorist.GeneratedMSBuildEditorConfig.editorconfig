@@ -9,113 +9,329 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JavaFlorist
 build_property.RootNamespace = JavaFlorist
-build_property.ProjectDir = /Users/hieuhee/Documents/MyProject/backend/JavaFlorist/
+build_property.ProjectDir = /Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/hieuhee/Documents/MyProject/backend/JavaFlorist
+build_property.MSBuildProjectDirectory = /Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Cart/Checkout.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/AccountMangager/AddAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWNjb3VudE1hbmdhZ2VyL0FkZEFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/AccountMangager/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWNjb3VudE1hbmdhZ2VyL0NoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/AccountMangager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWNjb3VudE1hbmdhZ2VyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Discount/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGlzY291bnQvQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Discount/Fix.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGlzY291bnQvRml4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Discount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGlzY291bnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Occasion/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT2NjYXNpb24vQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Occasion/Fix.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT2NjYXNpb24vRml4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Occasion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT2NjYXNpb24vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Order/ChangeStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT3JkZXIvQ2hhbmdlU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT3JkZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Product/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Product/Fix.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9GaXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Shared/_LoginAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19Mb2dpbkFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Shared/_SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19TaWRlYmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/AccountMangager/AddAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9BY2NvdW50TWFuZ2FnZXIvQWRkQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/AccountMangager/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9BY2NvdW50TWFuZ2FnZXIvQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/AccountMangager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9BY2NvdW50TWFuZ2FnZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9Ib21lL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9Mb2dpbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9TaGFyZWQvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9TaGFyZWQvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/Shared/_LoginAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9TaGFyZWQvX0xvZ2luQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/Shared/_SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9TaGFyZWQvX1NpZGViYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9TaGFyZWQvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Areas/Manager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFuYWdlci9WaWV3cy9fVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Canceled/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuY2VsZWQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Cart/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9DaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Cart/Index.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Cart/Success.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Cart/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9TdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Home/Index.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Complete/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxldGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Delivering/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVsaXZlcmluZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Home/Privacy.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Product/Detail.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/LookingForAShipUnit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9va2luZ0ZvckFTaGlwVW5pdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/PreparingGoods/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlcGFyaW5nR29vZHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Product/Index.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/FilterByPrice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9GaWx0ZXJCeVByaWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/FilterProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9GaWx0ZXJQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Product/ProductItem.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/ProductItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0SXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Product/Search.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Profile/CustomerOrder.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/ViewMore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9WaWV3TW9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Product/ViewMoreItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9WaWV3TW9yZUl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Profile/CustomerOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9DdXN0b21lck9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Profile/Index.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Profile/Sidebar.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Profile/Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/Components/Cart/CartPanel.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/BannerContent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmFubmVyQ29udGVudC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/BestSeller/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmVzdFNlbGxlci9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/Cart/CartPanel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FydC9DYXJ0UGFuZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/Components/FeaturedProducts/Default.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/FeaturedProducts/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRmVhdHVyZWRQcm9kdWN0cy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/Components/Sidebar/Default.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/Hero/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvSGVyby9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/HeroSlider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvSGVyb1NsaWRlci9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/ListItem/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTGlzdEl0ZW0vRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/ListOrder/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTGlzdE9yZGVyL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/RelatedProducts/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUmVsYXRlZFByb2R1Y3RzL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/Sidebar/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2lkZWJhci9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/Components/Star/Default.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/Star/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU3Rhci9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/Error.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Components/TabReviews/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVGFiUmV2aWV3cy9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/_LayoutUser.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/_LayoutBecomePartner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRCZWNvbWVQYXJ0bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/_LayoutUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/_SearchPartial.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/_SearchPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TZWFyY2hQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/_SidebarPartial.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/_SidebarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TaWRlYmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/User/Login.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/User/BecomePartner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9CZWNvbWVQYXJ0bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/User/Register.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/_ViewImports.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/_ViewStart.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/Views/Shared/_Layout.cshtml]
+[/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2frefyt69f

@@ -14,7 +14,7 @@ namespace JavaFlorist.ViewComponents
 		}
 		public IViewComponentResult Invoke()
 		{
-            var data = _context.Occasions.AsQueryable();
+            var data = _context.Occasions.AsQueryable().Where(d => d.ProductModels.Any(p => p.Status == 1));
 			var result = data.Select(r => new SidebarViewModel
 			{
 				Id = r.Id,

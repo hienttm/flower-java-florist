@@ -1,0 +1,122 @@
+﻿<aside class="sidebar-left">
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target=".collapse"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h1>
+                <a class="navbar-brand" href="index.html">
+                    <span class="fa fa-area-chart"></span> Glance<span class="dashboard_text">Design dashboard</span>
+                </a>
+            </h1>
+        </div>
+        <div class="collapse navbar-collapse"
+             id="bs-example-navbar-collapse-1">
+            <ul class="sidebar-menu">
+                <li class="header">Admin Web book</li>
+                <li class="treeview">
+                    <a asp-action="Index" asp-controller="Home">
+                        <i class="fa fa-dashboard"></i> <span>Home</span>
+                    </a>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Occasion</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a asp-action="Index" asp-controller="Occasion"><i class="fa fa-angle-right"></i>List Genre</a>
+                        </li>
+                        <li>
+                            <a asp-action="Add" asp-controller="Occasion"><i class="fa fa-angle-right"></i>Add Genre</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Discount</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a asp-action="Index" asp-controller="Discount"><i class="fa fa-angle-right"></i>List Discount</a>
+                        </li>
+                        <li>
+                            <a asp-action="Add" asp-controller="Discount"><i class="fa fa-angle-right"></i>Add Discount</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Product</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a asp-action="Index" asp-controller="Product"><i class="fa fa-angle-right"></i>List Product</a>
+                        </li>
+                        <li>
+                            <a asp-action="Add" asp-controller="Product"><i class="fa fa-angle-right"></i>Add Product</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Order</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a asp-action="Index" asp-controller="Order"><i class="fa fa-angle-right"></i>List Order</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Manager Comment</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a asp-action="Index" asp-controller="AccountMangager"><i class="fa-solid fa-user"></i>List Comment</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-laptop"></i>
+                        <span>Account Management</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a asp-action="Index" asp-controller="AccountMangager"><i class="fa-solid fa-user"></i>List Account</a>
+                        </li>
+                        <li>
+                            <a asp-action="AddAccount" asp-controller="AccountMangager"><i class="fa fa-angle-right"></i>Add User</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+</aside>
+

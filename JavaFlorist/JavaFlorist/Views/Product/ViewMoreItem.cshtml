@@ -1,0 +1,40 @@
+﻿@model IEnumerable<JavaFlorist.ViewModels.ProductViewModel>
+
+
+@foreach (var item in Model)
+{
+    <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="rounded position-relative fruite-item">
+            <a asp-action="Detail" asp-controller="Product" asp-route-Slug="@item.Slug">
+                <div class="fruite-img" style="height:200px">
+                    <img src="~/img/@item.Image" class="img-fluid w-100 rounded-top" alt="" style="height:100%; object-fit:cover; overflow:hidden">
+                </div>
+            </a>
+            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.Occasion</div>
+            <div class="p-3 border border-secondary border-top-0 rounded-bottom align-items-center">
+                <a asp-action="Detail" asp-controller="Product" asp-route-Slug="@item.Slug">
+                    @if (@item.Discount != @item.Price)
+                    {
+                        <h4 style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; ">@item.Name</h4>
+                    }
+                    else
+                    {
+                        <h4 class="mb-4" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; ">@item.Name</h4>
+                    }
+                </a>
+                <div class="d-flex justify-content-between flex-lg-wrap align-items-center">
+                    <div>
+                        @if (@item.Discount != @item.Price)
+                        {
+                            <p class="text-danger font-weight-normal fs-8 mb-0 text-decoration-line-through">$@item.Price</p>
+                        }
+                        <p class="text-dark fs-5 fw-bold mb-0">$@item.Discount</p>
+                    </div>
+                    <a asp-action="AddToCard" asp-controller="Cart" asp-route-Id="@item.Id" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

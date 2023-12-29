@@ -21,6 +21,9 @@ namespace JavaFlorist.Models
 
         public decimal Discount { get; set; }
 
+        public int OrderStatusId { get; set; } = 1;
+        public OrderStatusModel OrderStatus { get; set; } = null!;
+
         public OrderModel Order { get; set; } = null!;
 
         public ProductModel Product { get; set; } = null!;

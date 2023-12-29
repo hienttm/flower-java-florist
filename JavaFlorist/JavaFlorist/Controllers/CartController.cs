@@ -49,7 +49,8 @@ namespace JavaFlorist.Controllers
                     Img = product.Thumb,
 					Quantity = quantity,
 				};
-				cart.Add(item);
+                cart.Add(item);
+
             }
 			else
 			{
@@ -140,6 +141,7 @@ namespace JavaFlorist.Controllers
 					Status = 1,
 					Note = model.Note
 				};
+
                 _context.Database.BeginTransaction();
                 try
 				{
@@ -157,10 +159,21 @@ namespace JavaFlorist.Controllers
 							ProductId = item.Id,
 							Discount = item.Discount,
                         });
+						var product = _context.Products.Where(p => p.Id == item.Id).ToList();
+						var result = product.Select(r => new CountProductsVM
+						{
+							Count = r.CountBuy += 1,
+						});
+						_context.AddRangeAsync(result);
+						_context.SaveChanges();
 					}
 					_context.AddRangeAsync(orderdetail);
 					_context.SaveChanges();
-					HttpContext.Session.Set<List<CartViewModel>>(MySetting.Cart_Key, new List<CartViewModel>());
+                    
+
+                    HttpContext.Session.Set<List<CartViewModel>>(MySetting.Cart_Key, new List<CartViewModel>());
+
+					
 					return View("Success");
                 }
 				catch
@@ -249,6 +262,13 @@ namespace JavaFlorist.Controllers
                                 ProductId = item.Id,
                                 Discount = item.Discount,
                             });
+                            var product = _context.Products.Where(p => p.Id == item.Id).ToList();
+                            var result = product.Select(r => new CountProductsVM
+                            {
+                                Count = r.CountBuy += 1,
+                            });
+                            _context.AddRangeAsync(result);
+                            _context.SaveChanges();
                         }
                         _context.AddRange(orderdetail);
                         _context.SaveChanges();

@@ -28,7 +28,7 @@ namespace JavaFlorist.Controllers
 			if (User.Identity.IsAuthenticated)
 			{
 				var customerID = int.Parse(@User.FindFirst(MySetting.CLAIM_CUSTOMERID)?.Value);
-				var user = _context.Users.SingleOrDefault(u => u.Id == customerID);
+				var user = _context.Users.FirstOrDefault(u => u.Id == customerID);
 				var getUser = new UserViewModel
 				{
 					Id = user.Id,
@@ -49,15 +49,12 @@ namespace JavaFlorist.Controllers
 		{
             ModelState.Remove("img");
             ModelState.Remove("Avatar");
-            ModelState.Remove("Firstname");
-            ModelState.Remove("Lastname");
             ModelState.Remove("Password");
-            ModelState.Remove("BirthDay");
-            ModelState.Remove("City");
             ModelState.Remove("Gender");
             ModelState.Remove("Email");
             ModelState.Remove("Phone");
             ModelState.Remove("Address");
+            ModelState.Remove("ReapeatPassword");
 
             if (ModelState.IsValid)
             {
@@ -118,7 +115,7 @@ namespace JavaFlorist.Controllers
             {
                 var customerID = int.Parse(@User.FindFirst(MySetting.CLAIM_CUSTOMERID)?.Value);
                 var user = _context.Users.SingleOrDefault(u => u.Id == customerID);
-                var order = _context.OrderDetails.Include(o => o.Order)
+                var order = _context.OrderDetails.Include(o => o.Order).Where(p => p.OrderStatusId == 4)
                     .Include(p => p.Product).Where(u => u.Order.UserId == user.Id);
                 var result = order.Select(p => new CustomerOrderViewModel
                 {
@@ -132,6 +129,9 @@ namespace JavaFlorist.Controllers
             }
             return View();
         }
+
+        
+
     }
 
 }

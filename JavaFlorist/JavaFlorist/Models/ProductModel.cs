@@ -20,11 +20,16 @@ namespace JavaFlorist.Models
 		public OccasionModel Occasion { get; set; }
 		public int? DiscountId { get; set; }
 		public DiscountModel Discount { get; set; }
+		public int CountBuy { get; set; } = 0;
 		public int Status { get; set; }
+        [NotMapped]
+        [FileExtensions]
+        public IFormFile ImageUpload { get; set; }
         public DateTime Created_at { get; set; }
         public DateTime Update_at { get; set; }
-        public ICollection<OrderDetailModel> OrderDetails { get; set; } = new List<OrderDetailModel>();
+        public virtual ICollection<OrderDetailModel> OrderDetails { get; set; } = new List<OrderDetailModel>();
         public virtual ICollection<RateModel> Rates { get; set; } = new List<RateModel>();
+        public virtual ICollection<BannerContentModel> BannerContentModels { get; set; }
     }
 }
 

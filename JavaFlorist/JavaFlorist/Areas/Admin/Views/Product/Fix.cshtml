@@ -1,0 +1,83 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<div id="page-wrapper">
+    <div class="main-page">
+        <h4>Add Product</h4>
+        <div class="col-12">
+            <div class="col-md-9">
+                <form asp-action="Fix" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input asp-for="Name" class="form-control" id="title" onkeyup="ChangeToSlug()" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Slug</label>
+                        <input asp-for="Slug" class="form-control" id="convert_slug" />
+                        <span asp-validation-for="Slug" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Price</label>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Description</label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Content</label>
+                        <input asp-for="Content" class="form-control" />
+                        <span asp-validation-for="Content" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Discount</label>
+                        <select asp-for="DiscountId" class="form-control" asp-items="ViewBag.Discounts">
+                            <option>--Choose a Discount--</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Occasion</label>
+                        <select asp-for="OccasionId" class="form-control" asp-items="ViewBag.Occasions">
+                            <option>--Choose a Occasion--</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="form-label my-3" for="Avatar">Image</label>
+                        <input type="file" asp-for="ImageUpload" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Status</label>
+                        <select asp-for="Status" class="form-control">
+                            <option value="1"> Hiển thị </option>
+                            <option value="0"> Ẩn </option>
+                        </select>
+                        <span asp-validation-for="Status" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-primary" onclick="addCategory()">Update</button>
+                    </div>
+                </form>
+                <a asp-action="Index">Back to List Product</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

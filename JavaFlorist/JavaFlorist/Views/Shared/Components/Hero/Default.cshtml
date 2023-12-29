@@ -1,0 +1,22 @@
+﻿@model JavaFlorist.ViewModels.HeroBannerViewModel
+@{
+    string imageUrl = Url.Content("~/img/Banner/" + Model.Image);
+}
+<div class="container-fluid py-5 mb-5 hero-header" style="background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1)), url(@imageUrl);background-size:cover">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-md-12 col-lg-5">
+                <h1 class="mb-3 display-3 text-primary">Java Forist</h1>
+                <p style="line-height:30px;" class="mb-5 text-dark" >
+                    <i>
+                        If you're looking for the most beautiful and freshest flowers for a gift, Java Florist has exactly what you're seeking!
+                        Explore our various flower arrangements to make your next occasion truly memorable.
+                    </i>
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-7">
+               @await Component.InvokeAsync("HeroSlider")
+            </div>
+        </div>
+    </div>
+</div>

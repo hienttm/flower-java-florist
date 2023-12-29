@@ -16,10 +16,12 @@ namespace JavaFlorist.Controllers
     {
         private readonly DataContext _context;
         private readonly IMapper _mapper;
-        public UserController(DataContext context, IMapper mapper)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public UserController(DataContext context, IMapper mapper, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
             _mapper = mapper;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [HttpGet]
@@ -30,27 +32,43 @@ namespace JavaFlorist.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Register(UserViewModel models, IFormFile Avatar)
+        public IActionResult Register(UserViewModel models, IFormFile imageUpload)
         {
-            ModelState.Remove("img");
+            ModelState.Remove("ImageUpload");
             ModelState.Remove("Avatar");
-
+            ModelState.Remove("ReapeatPassword");
             if (ModelState.IsValid)
             {
                 var hashedPassword = BCrypt.Net.BCrypt.HashPassword(models.Password);
-
-                var user = _mapper.Map<UserModel>(models);
-                user.Password = hashedPassword;
-                user.IsActive = true; // se xu ly khi dung mail
-                user.Role = "user";
-                user.Avatar = "avatar-2.png";
-                if (Avatar != null)
+                var data = _context.Users.Where(p => p.Email == models.Email).Count();
+                if(data > 0)
                 {
-                    user.Avatar = MyUtil.UploadHinh(Avatar, "customer");
+                    ViewBag.ErrorRegister = "false";
+                    return View();
                 }
-                _context.Add(user);
-                _context.SaveChanges();
-                return RedirectToAction("Login", "User");
+                else
+                {
+                    var user = _mapper.Map<UserModel>(models);
+                    user.Password = hashedPassword;
+                    user.IsActive = true; // se xu ly khi dung mail
+                    user.Role = "customer";
+                    user.Avatar = "avatar-2.png";
+                    if (imageUpload != null)
+                    {
+                        string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "img/customer");
+                        string ImageName = Guid.NewGuid().ToString() + "_" + models.ImageUpload.FileName;
+                        string filePath = Path.Combine(uploadsDir, ImageName);
+
+                        FileStream fs = new FileStream(filePath, FileMode.Create);
+                        models.ImageUpload.CopyToAsync(fs);
+                        fs.Close();
+                        user.Avatar = ImageName;
+                    }
+                    _context.Add(user);
+                    _context.SaveChanges();
+                    return RedirectToAction("Login", "User");
+                }
+                
             }
             else
             {
@@ -65,7 +83,6 @@ namespace JavaFlorist.Controllers
                 string errorMessage = string.Join("\n", errors);
                 return BadRequest(errorMessage);
             }
-            
         }
 
         [HttpGet]
@@ -81,13 +98,15 @@ namespace JavaFlorist.Controllers
             var user = _context.Users.FirstOrDefault(a => a.Email == model.Email);
             if (user == null)
             {
-                return Ok("Email không tồn tại");
+                ViewBag.LoginFalse = "Login Falses";
+                return View();
             }
 
             // Sử dụng BCrypt để kiểm tra mật khẩu
             if (!BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
             {
-                return Ok("Mật khẩu không đúng");
+                ViewBag.LoginFalse = "Login Falses";
+                return View();
             }
 
             var claims = new List<Claim>
@@ -98,9 +117,6 @@ namespace JavaFlorist.Controllers
             new Claim("Avatar", user.Avatar),
             new Claim(ClaimTypes.MobilePhone, user.Phone),
             new Claim(ClaimTypes.StreetAddress, user.Address),
-            new Claim(ClaimTypes.Country, user.City),
-            new Claim("FirstName", user.Firstname),
-            new Claim("LastName", user.Lastname),
             new Claim(MySetting.CLAIM_CUSTOMERID, user.Id.ToString()),
         };
 
@@ -110,17 +126,21 @@ namespace JavaFlorist.Controllers
             await HttpContext.SignInAsync(
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(claimsIdentity));
-
+            ViewBag.LoginSuccess = "Login Success";
             return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Logout()
         {
             HttpContext.SignOutAsync();
+            HttpContext.Session.Set<List<CartViewModel>>(MySetting.Cart_Key, new List<CartViewModel>());
             return RedirectToAction("Index", "Home");
         }
 
-
+        public IActionResult BecomePartner()
+        {
+            return View();
+        }
     }
 }
 

@@ -1,1 +1,31 @@
-﻿
+﻿@model IEnumerable<JavaFlorist.ViewModels.ProductViewModel>
+
+<div class="owl-carousel vegetable-carousel justify-content-center">
+    @foreach (var item in Model)
+    {
+        <div class="border border-primary rounded position-relative vesitable-item">
+            <a asp-action="Detail" asp-controller="Product" asp-route-Slug="@item.Slug">
+                <div class="vesitable-img">
+                    <img src="~/img/@item.Image" class="img-fluid w-100 rounded-top" alt="@item.Name">
+                </div>
+            </a>
+            <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">@item.Occasion</div>
+            <div class="p-4 pb-0 rounded-bottom">
+                <a asp-action="Detail" asp-controller="Product" asp-route-Slug="@item.Slug">
+                    <h4>@item.Name</h4>
+                </a>
+                <div class="d-flex justify-content-between flex-lg-wrap align-items-center">
+                    <div>
+                        @if (@item.Discount != @item.Price)
+                        {
+                            <p class="text-danger font-weight-normal fs-8 mb-0 text-decoration-line-through">$@item.Price</p>
+                        }
+                        <p class="text-dark fs-5 fw-bold mb-0">$@item.Discount</p>
+                    </div>
+                    <a asp-action="AddToCard" asp-controller="Cart" asp-route-Id="@item.Id" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>

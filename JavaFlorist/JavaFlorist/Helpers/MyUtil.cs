@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using JavaFlorist.ViewModels;
 
 namespace JavaFlorist.Helpers
 {
@@ -9,7 +10,7 @@ namespace JavaFlorist.Helpers
         {
             try
             {
-                var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", folder, Avatar.FileName);
+                var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", Avatar.FileName);
 
                 using (var myfile = new FileStream(fullPath, FileMode.CreateNew))
                 {

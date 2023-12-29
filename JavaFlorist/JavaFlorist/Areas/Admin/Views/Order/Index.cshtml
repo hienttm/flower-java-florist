@@ -1,0 +1,54 @@
+﻿@model IEnumerable<OrderDetailModel>
+@{
+    ViewData["title"] = "List OrderDetails";
+}
+<div id="page-wrapper">
+    <div class="main-page">
+        <h4>List Genre</h4>
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name User</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">How to Pay</th>
+                    <th scope="col">Name Product</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Discount</th>
+                    <th scope="col">Note</th>
+                    <th scope="col">Status Order</th>
+                    <th scope="col">Manager</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var i = 0;
+                }
+                @foreach (var item in Model)
+                {
+                    i++;
+                    <tr>
+                        <th scope="row">@i</th>
+                        <td scope="row" style="width:10%">@item.Order.UserName</td>
+                        <td scope="row" style="width:10%">@item.Order.Phone</td>
+                        <td style="width:10%">@item.Order.Address</td>
+                        <td style="width:10%">@item.Order.HowToPay</td>
+                        <td style="width:20%">@item.Product.Name</td>
+                        <td style="width:200px"><img style="width:100%" src="~/img/@item.Product.Thumb" /></td>
+                        <td>@item.Price</td>
+                        <td>@item.Discount</td>
+                        <td style="width:15%">@item.Order.Note</td>
+                        <td style="width:20%">
+                            @item.OrderStatus.NameStatus
+                            <button type="button" class="btn btn-primary"><a asp-action="ChangeStatus" asp-controller="Order" asp-route-Id="@item.Id" class="text-white">Change Status</a></button>
+                        </td>
+                        <td><button type="button" class="btn btn-danger"><a class="text-white" asp-action="Delete" asp-controller="Product" asp-route-Id="@item.Id">Delete</a></button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<JavaFlorist.ViewModels.ProductViewModel>
+
+<div class="container-fluid fruite py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Fresh fruits shop</h1>
+        <div class="row g-4">
+            <div class="col-lg-12">
+                <div class="row g-4">
+                    <div class="col-xl-3">
+                        @await Html.PartialAsync("_SearchPartial")
+                    </div>
+                    <div class="col-5"></div>
+                    <div class="col-xl-4">
+                        <div class="bg-light ps-3 py-3 rounded d-flex justify-content-evenly mb-4">
+                            <label for="fruits">Default Sorting:</label>
+                            <form id="filterForm" asp-action="FilterProducts" asp-controller="Product" method="get">
+                                <select id="fruits" name="query" class="border-0 form-select-sm bg-light me-3">
+                                    <option value="Newest">Newest</option>
+                                    <option value="Old">Old</option>
+                                    <option value="LowestPrice">Lowest price</option>
+                                    <option value="HighestPrice">Highest price</option>
+                                </select>
+                                <button id="filterButton" type="submit">Filter</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4 justify-content-center">
+                            @await Html.PartialAsync("ViewMoreItem", Model)
+                            <div class="col-12">
+                                <div class="pagination d-flex justify-content-center mt-5">
+                                    <a href="#" class="rounded">&laquo;</a>
+                                    <a href="#" class="active rounded">1</a>
+                                    <a href="#" class="rounded">2</a>
+                                    <a href="#" class="rounded">3</a>
+                                    <a href="#" class="rounded">4</a>
+                                    <a href="#" class="rounded">5</a>
+                                    <a href="#" class="rounded">6</a>
+                                    <a href="#" class="rounded">&raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

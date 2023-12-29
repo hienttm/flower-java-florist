@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JavaFlorist.Models
 {
@@ -7,17 +8,18 @@ namespace JavaFlorist.Models
 	{
 		[Key]
 		public int Id { get; set; }
-        public string Firstname { get; set; }
-        public string Lastname { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public DateTime BirthDay { get; set; }
+        [NotMapped]
+        public string ReapeatPassword { get; set; }
         public int Gender { get; set; }
         public string Phone { get; set; }
         public string Address { get; set; }
-        public string City { get; set; }
         public string? Avatar { get; set; }
+        [NotMapped]
+        [FileExtensions]
+        public IFormFile ImageUpload { get; set; }
         public string Role { get; set; }
         public bool IsActive { get; set; }
         public DateTime Create_at { get; set; }

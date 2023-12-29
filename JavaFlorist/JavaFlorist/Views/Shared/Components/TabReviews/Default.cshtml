@@ -1,0 +1,34 @@
+﻿@model IEnumerable<JavaFlorist.ViewModels.TabRatesViewModel>
+
+<div class="tab-pane" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+    @foreach (var item in Model)
+    {
+        <div class="d-flex">
+            <img src="~/img/customer/@item.Avatar" class="img-fluid rounded-circle p-3" style="width: 100px; height: 100px; object-fit:cover" alt="">
+            <div class="">
+                <p class="mb-2" style="font-size: 14px;">@item.Time</p>
+                <div class="d-flex justify-content-between">
+                    <h5>@item.NameUser</h5>
+                    <div class="d-flex mb-3">
+                        @for (var stars = 1; stars <= 5; stars++)
+                        {
+                            if (stars <= @item.Star)
+                            {
+                                <i class="fa fa-star text-secondary"></i>
+                            }
+                            else
+                            {
+                                <i class="fa fa-star"></i>
+                            }
+                        }
+                        
+                    </div>
+                </div>
+                <p>
+                    @item.Comment
+                </p>
+            </div>
+        </div>
+    }
+
+</div>

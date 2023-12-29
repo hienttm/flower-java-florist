@@ -1,0 +1,4 @@
+﻿@model JavaFlorist.Models.BannerContentModel
+<div class="row g-4 align-items-center">
+    <a asp-controller="Product" asp-action="Detail" asp-route-Slug="@Model.Product.Slug"><img src="~/img/Banner/@Model.Image" /></a>
+</div>

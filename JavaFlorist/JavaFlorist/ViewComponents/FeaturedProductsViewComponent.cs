@@ -16,7 +16,7 @@ namespace JavaFlorist.ViewComponents
 		}
 		public IViewComponentResult Invoke()
 		{
-			var product = _context.Products.Include(p => p.Rates).Take(5).AsQueryable();
+			var product = _context.Products.Include(p => p.Rates).Where(p => p.Rates.Any(r => r.Star >= 4)).Take(5).AsQueryable();
 			var result = product.Select(r => new FeaturedViewModel
 			{
 				Id = r.Id,

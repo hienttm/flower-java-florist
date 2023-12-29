@@ -27,17 +27,21 @@ builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(1);
+    options.IdleTimeout = TimeSpan.FromMinutes(5);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
 
 
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+.AddCookie(options =>
 {
   options.LoginPath = "/User/Login"; // Đường dẫn đến trang đăng nhập
-}
-);
+}).AddCookie("ManagerLogin", options =>
+{
+    options.LoginPath = "Manager/Login"; // Đường dẫn đến trang đăng nhập của trang admin
+});
+
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 // register paypalClient Singletion()
@@ -67,6 +71,10 @@ app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "Areas",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",

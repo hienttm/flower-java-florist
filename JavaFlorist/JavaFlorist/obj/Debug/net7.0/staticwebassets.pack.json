@@ -1,719 +1,1267 @@
 {
   "Files": [
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/obj/Debug/net7.0/scopedcss/projectbundle/JavaFlorist.bundle.scp.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/obj/Debug/net7.0/scopedcss/projectbundle/JavaFlorist.bundle.scp.css",
       "PackagePath": "staticwebassets/JavaFlorist.bundle.scp.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/.DS_Store",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/.DS_Store",
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/404.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/404.html",
       "PackagePath": "staticwebassets/404.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/.DS_Store",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/BecomePartner/.DS_Store",
+      "PackagePath": "staticwebassets/BecomePartner/.DS_Store"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/BecomePartner/img/.DS_Store",
+      "PackagePath": "staticwebassets/BecomePartner/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/BecomePartner/img/customer/94aad60df84eeb06aa635564985c71e7.jpg",
+      "PackagePath": "staticwebassets/BecomePartner/img/customer/94aad60df84eeb06aa635564985c71e7.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/BecomePartner/index.html",
+      "PackagePath": "staticwebassets/BecomePartner/index.html"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/BecomePartner/style/Partner.css",
+      "PackagePath": "staticwebassets/BecomePartner/style/Partner.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/.DS_Store",
       "PackagePath": "staticwebassets/account/.DS_Store"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/css/background.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/css/background.css",
       "PackagePath": "staticwebassets/account/css/background.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/css/style.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/css/style.css",
       "PackagePath": "staticwebassets/account/css/style.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/css/style.css.map",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/css/style.css.map",
       "PackagePath": "staticwebassets/account/css/style.css.map"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/css/style.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/css/style.scss",
       "PackagePath": "staticwebassets/account/css/style.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/css/material-design-iconic-font.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/css/material-design-iconic-font.css",
       "PackagePath": "staticwebassets/account/fonts/material-design-iconic-font/css/material-design-iconic-font.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css",
       "PackagePath": "staticwebassets/account/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot",
       "PackagePath": "staticwebassets/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg",
       "PackagePath": "staticwebassets/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf",
       "PackagePath": "staticwebassets/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff",
       "PackagePath": "staticwebassets/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2",
       "PackagePath": "staticwebassets/account/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/poppins/Poppins-Regular.ttf",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/poppins/Poppins-Regular.ttf",
       "PackagePath": "staticwebassets/account/fonts/poppins/Poppins-Regular.ttf"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/fonts/poppins/Poppins-SemiBold.ttf",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/fonts/poppins/Poppins-SemiBold.ttf",
       "PackagePath": "staticwebassets/account/fonts/poppins/Poppins-SemiBold.ttf"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/images/background-account.jpeg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/images/.DS_Store",
+      "PackagePath": "staticwebassets/account/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/images/background-account.jpeg",
       "PackagePath": "staticwebassets/account/images/background-account.jpeg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/images/bg-registration-form-1.jpg",
-      "PackagePath": "staticwebassets/account/images/bg-registration-form-1.jpg"
-    },
-    {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/images/bg-small-account.jpeg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/images/bg-small-account.jpeg",
       "PackagePath": "staticwebassets/account/images/bg-small-account.jpeg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/images/registration-form-1.jpg",
-      "PackagePath": "staticwebassets/account/images/registration-form-1.jpg"
-    },
-    {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/account/index.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/account/index.html",
       "PackagePath": "staticwebassets/account/index.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/cart.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/.DS_Store",
+      "PackagePath": "staticwebassets/backend/.DS_Store"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/SidebarNav.min.css",
+      "PackagePath": "staticwebassets/backend/css/SidebarNav.min.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/animate.css",
+      "PackagePath": "staticwebassets/backend/css/animate.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/bootstrap.css",
+      "PackagePath": "staticwebassets/backend/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/custom.css",
+      "PackagePath": "staticwebassets/backend/css/custom.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/export.css",
+      "PackagePath": "staticwebassets/backend/css/export.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/font-awesome.css",
+      "PackagePath": "staticwebassets/backend/css/font-awesome.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/graph.css",
+      "PackagePath": "staticwebassets/backend/css/graph.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/jqcandlestick.css",
+      "PackagePath": "staticwebassets/backend/css/jqcandlestick.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/monthly.css",
+      "PackagePath": "staticwebassets/backend/css/monthly.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/owl.carousel.css",
+      "PackagePath": "staticwebassets/backend/css/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/css/style.css",
+      "PackagePath": "staticwebassets/backend/css/style.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/backend/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/backend/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/backend/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/backend/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/backend/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/backend/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/backend/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/backend/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/backend/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/fonts/glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets/backend/fonts/glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/.DS_Store",
+      "PackagePath": "staticwebassets/backend/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/1.jpg",
+      "PackagePath": "staticwebassets/backend/images/1.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/2.jpg",
+      "PackagePath": "staticwebassets/backend/images/2.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/3.jpg",
+      "PackagePath": "staticwebassets/backend/images/3.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/4.jpg",
+      "PackagePath": "staticwebassets/backend/images/4.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/Product/8294faea-3dca-4740-a4fd-ee1d1c300835_51waho5hrih0pxmv4rsdqj91i9y9erbg.jpeg",
+      "PackagePath": "staticwebassets/backend/images/Product/8294faea-3dca-4740-a4fd-ee1d1c300835_51waho5hrih0pxmv4rsdqj91i9y9erbg.jpeg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/Product/c4bd948c-48cc-41c7-8485-16243fd9ef61_51waho5hrih0pxmv4rsdqj91i9y9erbg.jpeg",
+      "PackagePath": "staticwebassets/backend/images/Product/c4bd948c-48cc-41c7-8485-16243fd9ef61_51waho5hrih0pxmv4rsdqj91i9y9erbg.jpeg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/Product/c816eb90-c646-41a2-8156-f7cc343e35f1_z1pqfgihru2d5i2qwkra2ygn0yrlt4it.jpeg",
+      "PackagePath": "staticwebassets/backend/images/Product/c816eb90-c646-41a2-8156-f7cc343e35f1_z1pqfgihru2d5i2qwkra2ygn0yrlt4it.jpeg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/a.png",
+      "PackagePath": "staticwebassets/backend/images/a.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/i1.png",
+      "PackagePath": "staticwebassets/backend/images/i1.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/i2.png",
+      "PackagePath": "staticwebassets/backend/images/i2.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/i3.png",
+      "PackagePath": "staticwebassets/backend/images/i3.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/i4.png",
+      "PackagePath": "staticwebassets/backend/images/i4.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/img-sprite.png",
+      "PackagePath": "staticwebassets/backend/images/img-sprite.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/img1.png",
+      "PackagePath": "staticwebassets/backend/images/img1.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/lock.png",
+      "PackagePath": "staticwebassets/backend/images/lock.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/mail.png",
+      "PackagePath": "staticwebassets/backend/images/mail.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/search-icon.png",
+      "PackagePath": "staticwebassets/backend/images/search-icon.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/slider1.jpg",
+      "PackagePath": "staticwebassets/backend/images/slider1.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/slider2.jpg",
+      "PackagePath": "staticwebassets/backend/images/slider2.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/slider3.jpg",
+      "PackagePath": "staticwebassets/backend/images/slider3.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/slider4.jpg",
+      "PackagePath": "staticwebassets/backend/images/slider4.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/slider5.jpg",
+      "PackagePath": "staticwebassets/backend/images/slider5.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/slider6.jpg",
+      "PackagePath": "staticwebassets/backend/images/slider6.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/slider7.jpg",
+      "PackagePath": "staticwebassets/backend/images/slider7.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/tick.png",
+      "PackagePath": "staticwebassets/backend/images/tick.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/user.png",
+      "PackagePath": "staticwebassets/backend/images/user.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/images/weather.jpg",
+      "PackagePath": "staticwebassets/backend/images/weather.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/Chart.bundle.js",
+      "PackagePath": "staticwebassets/backend/js/Chart.bundle.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/Chart.js",
+      "PackagePath": "staticwebassets/backend/js/Chart.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/Chart.min.js",
+      "PackagePath": "staticwebassets/backend/js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/SidebarNav.min.js",
+      "PackagePath": "staticwebassets/backend/js/SidebarNav.min.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/SimpleChart.js",
+      "PackagePath": "staticwebassets/backend/js/SimpleChart.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/amcharts.js",
+      "PackagePath": "staticwebassets/backend/js/amcharts.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/bootstrap.js",
+      "PackagePath": "staticwebassets/backend/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/chartinator.js",
+      "PackagePath": "staticwebassets/backend/js/chartinator.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/classie.js",
+      "PackagePath": "staticwebassets/backend/js/classie.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/custom.js",
+      "PackagePath": "staticwebassets/backend/js/custom.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/export.min.js",
+      "PackagePath": "staticwebassets/backend/js/export.min.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/images/dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets/backend/js/images/dragIconRoundBig.svg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/images/lens.svg",
+      "PackagePath": "staticwebassets/backend/js/images/lens.svg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/index.js",
+      "PackagePath": "staticwebassets/backend/js/index.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/index1.js",
+      "PackagePath": "staticwebassets/backend/js/index1.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/index2.js",
+      "PackagePath": "staticwebassets/backend/js/index2.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/jquery-1.11.1.min.js",
+      "PackagePath": "staticwebassets/backend/js/jquery-1.11.1.min.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/jquery.flot.js",
+      "PackagePath": "staticwebassets/backend/js/jquery.flot.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/jquery.jqcandlestick.min.js",
+      "PackagePath": "staticwebassets/backend/js/jquery.jqcandlestick.min.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/jquery.nicescroll.js",
+      "PackagePath": "staticwebassets/backend/js/jquery.nicescroll.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/light.js",
+      "PackagePath": "staticwebassets/backend/js/light.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/metisMenu.min.js",
+      "PackagePath": "staticwebassets/backend/js/metisMenu.min.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/modernizr.custom.js",
+      "PackagePath": "staticwebassets/backend/js/modernizr.custom.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/monthly.js",
+      "PackagePath": "staticwebassets/backend/js/monthly.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/morejs.js",
+      "PackagePath": "staticwebassets/backend/js/morejs.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/owl.carousel.js",
+      "PackagePath": "staticwebassets/backend/js/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/pie-chart.js",
+      "PackagePath": "staticwebassets/backend/js/pie-chart.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/scripts.js",
+      "PackagePath": "staticwebassets/backend/js/scripts.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/serial.js",
+      "PackagePath": "staticwebassets/backend/js/serial.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/utils.js",
+      "PackagePath": "staticwebassets/backend/js/utils.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/backend/js/validator.min.js",
+      "PackagePath": "staticwebassets/backend/js/validator.min.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/cart.html",
       "PackagePath": "staticwebassets/cart.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/chackout.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/chackout.html",
       "PackagePath": "staticwebassets/chackout.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/contact.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/contact.html",
       "PackagePath": "staticwebassets/contact.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/css/SettingAcccount.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/css/SettingAcccount.css",
       "PackagePath": "staticwebassets/css/SettingAcccount.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/css/Star.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/css/Star.css",
       "PackagePath": "staticwebassets/css/Star.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/css/account.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/css/account.css",
       "PackagePath": "staticwebassets/css/account.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/css/bootstrap.min.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/css/style.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/css/img.css",
+      "PackagePath": "staticwebassets/css/img.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/css/style.css",
       "PackagePath": "staticwebassets/css/style.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/donmua.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/css/text.css",
+      "PackagePath": "staticwebassets/css/text.css"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/donmua.html",
       "PackagePath": "staticwebassets/donmua.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/.DS_Store",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/.DS_Store",
       "PackagePath": "staticwebassets/img/.DS_Store"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/avatar.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/2752c99a7cfbe108d599a6824d9662ac.jpg",
+      "PackagePath": "staticwebassets/img/2752c99a7cfbe108d599a6824d9662ac.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/2f3dec2a9a000ef9db631f1091fb8002.jpg",
+      "PackagePath": "staticwebassets/img/2f3dec2a9a000ef9db631f1091fb8002.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/327d6e12-09ba-4d02-bbc1-2a23b1331184_tinh-hong.jpg",
+      "PackagePath": "staticwebassets/img/327d6e12-09ba-4d02-bbc1-2a23b1331184_tinh-hong.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/94aad60df84eeb06aa635564985c71e7.jpg",
+      "PackagePath": "staticwebassets/img/94aad60df84eeb06aa635564985c71e7.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/Banner/banner-content.jpg",
+      "PackagePath": "staticwebassets/img/Banner/banner-content.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/Banner/chrimas.png",
+      "PackagePath": "staticwebassets/img/Banner/chrimas.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/Banner/christmas-1.png",
+      "PackagePath": "staticwebassets/img/Banner/christmas-1.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/Banner/christmas-2.png",
+      "PackagePath": "staticwebassets/img/Banner/christmas-2.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/Banner/hero-img.jpg",
+      "PackagePath": "staticwebassets/img/Banner/hero-img.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/.DS_Store",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/.DS_Store"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/327d6e12-09ba-4d02-bbc1-2a23b1331184_tinh-hong.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/327d6e12-09ba-4d02-bbc1-2a23b1331184_tinh-hong.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/avatar.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/avatar.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/baner-1.png",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/baner-1.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/banner-fruits.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/banner-fruits.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/best-product-1.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/best-product-1.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/best-product-2.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/best-product-2.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/best-product-3.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/best-product-3.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/best-product-4.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/best-product-4.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/best-product-5.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/best-product-5.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/best-product-6.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/best-product-6.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/c2f9656b-33a8-40f3-b34e-421df418723b_love.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/c2f9656b-33a8-40f3-b34e-421df418723b_love.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/cart-page-header-img.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/cart-page-header-img.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/cffdd64e-a046-4f1c-8cc3-84d0063746b2_love.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/cffdd64e-a046-4f1c-8cc3-84d0063746b2_love.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/featur-1.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/featur-1.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/featur-2.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/featur-2.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/featur-3.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/featur-3.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/fruite-item-1.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/fruite-item-1.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/fruite-item-2.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/fruite-item-2.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/fruite-item-3.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/fruite-item-3.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/fruite-item-4.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/fruite-item-4.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/fruite-item-5.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/fruite-item-5.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/fruite-item-6.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/fruite-item-6.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/hero-img-1.png",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/hero-img-1.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/hero-img-2.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/hero-img-2.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/hero-img.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/hero-img.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/payment.png",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/payment.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/single-item.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/single-item.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/testimonial-1.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/vegetable-item-1.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/vegetable-item-1.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/vegetable-item-2.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/vegetable-item-2.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/vegetable-item-3.png",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/vegetable-item-3.png"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/vegetable-item-4.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/vegetable-item-4.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/vegetable-item-5.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/vegetable-item-5.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/ProductImgAdmin/vegetable-item-6.jpg",
+      "PackagePath": "staticwebassets/img/ProductImgAdmin/vegetable-item-6.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/avatar.jpg",
       "PackagePath": "staticwebassets/img/avatar.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/baner-1.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/baner-1.png",
       "PackagePath": "staticwebassets/img/baner-1.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/banner-fruits.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/banner-fruits.jpg",
       "PackagePath": "staticwebassets/img/banner-fruits.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/best-product-1.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/best-product-1.jpg",
       "PackagePath": "staticwebassets/img/best-product-1.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/best-product-2.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/best-product-2.jpg",
       "PackagePath": "staticwebassets/img/best-product-2.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/best-product-3.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/best-product-3.jpg",
       "PackagePath": "staticwebassets/img/best-product-3.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/best-product-4.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/best-product-4.jpg",
       "PackagePath": "staticwebassets/img/best-product-4.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/best-product-5.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/best-product-5.jpg",
       "PackagePath": "staticwebassets/img/best-product-5.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/best-product-6.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/best-product-6.jpg",
       "PackagePath": "staticwebassets/img/best-product-6.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/cart-page-header-img.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/c2f9656b-33a8-40f3-b34e-421df418723b_love.jpg",
+      "PackagePath": "staticwebassets/img/c2f9656b-33a8-40f3-b34e-421df418723b_love.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/cart-page-header-img.jpg",
       "PackagePath": "staticwebassets/img/cart-page-header-img.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/customer/2752c99a7cfbe108d599a6824d9662ac.jpg",
-      "PackagePath": "staticwebassets/img/customer/2752c99a7cfbe108d599a6824d9662ac.jpg"
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/cffdd64e-a046-4f1c-8cc3-84d0063746b2_love.jpg",
+      "PackagePath": "staticwebassets/img/cffdd64e-a046-4f1c-8cc3-84d0063746b2_love.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/customer/2f3dec2a9a000ef9db631f1091fb8002.jpg",
-      "PackagePath": "staticwebassets/img/customer/2f3dec2a9a000ef9db631f1091fb8002.jpg"
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/customer/ae0bfc09-bac5-4369-a0da-37568ff99532_94aad60df84eeb06aa635564985c71e7.jpg",
+      "PackagePath": "staticwebassets/img/customer/ae0bfc09-bac5-4369-a0da-37568ff99532_94aad60df84eeb06aa635564985c71e7.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/customer/avatar-2.png",
-      "PackagePath": "staticwebassets/img/customer/avatar-2.png"
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/customer/badca72d-34b9-4dc5-a1f2-1c26935f0efa_461254722db54110e1f24c6182e5a309.jpg",
+      "PackagePath": "staticwebassets/img/customer/badca72d-34b9-4dc5-a1f2-1c26935f0efa_461254722db54110e1f24c6182e5a309.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/featur-1.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/customer/be035cab-8302-4f7b-a629-f70446d31ded_IMG_3962.jpg",
+      "PackagePath": "staticwebassets/img/customer/be035cab-8302-4f7b-a629-f70446d31ded_IMG_3962.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/customer/d83e0c9e-aaf4-4f77-ab7f-6c7d9b7a53eb_461254722db54110e1f24c6182e5a309.jpg",
+      "PackagePath": "staticwebassets/img/customer/d83e0c9e-aaf4-4f77-ab7f-6c7d9b7a53eb_461254722db54110e1f24c6182e5a309.jpg"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/featur-1.jpg",
       "PackagePath": "staticwebassets/img/featur-1.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/featur-2.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/featur-2.jpg",
       "PackagePath": "staticwebassets/img/featur-2.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/featur-3.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/featur-3.jpg",
       "PackagePath": "staticwebassets/img/featur-3.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/fruite-item-1.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/fruite-item-1.jpg",
       "PackagePath": "staticwebassets/img/fruite-item-1.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/fruite-item-2.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/fruite-item-2.jpg",
       "PackagePath": "staticwebassets/img/fruite-item-2.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/fruite-item-3.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/fruite-item-3.jpg",
       "PackagePath": "staticwebassets/img/fruite-item-3.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/fruite-item-4.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/fruite-item-4.jpg",
       "PackagePath": "staticwebassets/img/fruite-item-4.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/fruite-item-5.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/fruite-item-5.jpg",
       "PackagePath": "staticwebassets/img/fruite-item-5.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/fruite-item-6.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/fruite-item-6.jpg",
       "PackagePath": "staticwebassets/img/fruite-item-6.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/hero-img-1.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/hero-img-1.png",
       "PackagePath": "staticwebassets/img/hero-img-1.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/hero-img-2.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/hero-img-2.jpg",
       "PackagePath": "staticwebassets/img/hero-img-2.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/hero-img.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/hero-img.jpg",
       "PackagePath": "staticwebassets/img/hero-img.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/payment.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/payment.png",
       "PackagePath": "staticwebassets/img/payment.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/single-item.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/single-item.jpg",
       "PackagePath": "staticwebassets/img/single-item.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/testimonial-1.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/testimonial-1.jpg",
       "PackagePath": "staticwebassets/img/testimonial-1.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/vegetable-item-1.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/vegetable-item-1.jpg",
       "PackagePath": "staticwebassets/img/vegetable-item-1.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/vegetable-item-2.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/vegetable-item-2.jpg",
       "PackagePath": "staticwebassets/img/vegetable-item-2.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/vegetable-item-3.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/vegetable-item-3.png",
       "PackagePath": "staticwebassets/img/vegetable-item-3.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/vegetable-item-4.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/vegetable-item-4.jpg",
       "PackagePath": "staticwebassets/img/vegetable-item-4.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/vegetable-item-5.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/vegetable-item-5.jpg",
       "PackagePath": "staticwebassets/img/vegetable-item-5.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/img/vegetable-item-6.jpg",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/img/vegetable-item-6.jpg",
       "PackagePath": "staticwebassets/img/vegetable-item-6.jpg"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/index.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/js/VoteStarAjax.js",
-      "PackagePath": "staticwebassets/js/VoteStarAjax.js"
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/js/Filter.js",
+      "PackagePath": "staticwebassets/js/Filter.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/js/main.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/js/FilterPrice.js",
+      "PackagePath": "staticwebassets/js/FilterPrice.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/js/ListOrder.js",
+      "PackagePath": "staticwebassets/js/ListOrder.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/js/VoteStar.js",
+      "PackagePath": "staticwebassets/js/VoteStar.js"
+    },
+    {
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/js/main.js",
       "PackagePath": "staticwebassets/js/main.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/js/vote.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/js/vote.js",
       "PackagePath": "staticwebassets/js/vote.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/.DS_Store",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/.DS_Store",
       "PackagePath": "staticwebassets/lib/.DS_Store"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/easing/easing.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/easing/easing.js",
       "PackagePath": "staticwebassets/lib/easing/easing.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/easing/easing.min.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/easing/easing.min.js",
       "PackagePath": "staticwebassets/lib/easing/easing.min.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/lightbox/css/lightbox.min.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/lightbox/css/lightbox.min.css",
       "PackagePath": "staticwebassets/lib/lightbox/css/lightbox.min.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/lightbox/images/close.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/lightbox/images/close.png",
       "PackagePath": "staticwebassets/lib/lightbox/images/close.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/lightbox/images/loading.gif",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/lightbox/images/loading.gif",
       "PackagePath": "staticwebassets/lib/lightbox/images/loading.gif"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/lightbox/images/next.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/lightbox/images/next.png",
       "PackagePath": "staticwebassets/lib/lightbox/images/next.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/lightbox/images/prev.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/lightbox/images/prev.png",
       "PackagePath": "staticwebassets/lib/lightbox/images/prev.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/lightbox/js/lightbox.min.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/lightbox/js/lightbox.min.js",
       "PackagePath": "staticwebassets/lib/lightbox/js/lightbox.min.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/LICENSE",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/LICENSE",
       "PackagePath": "staticwebassets/lib/owlcarousel"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/ajax-loader.gif",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/ajax-loader.gif",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/ajax-loader.gif"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.carousel.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.carousel.css",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.carousel.min.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.carousel.min.css",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.min.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.default.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.default.css",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.default.min.css",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.min.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.green.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.green.css",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.theme.green.min.css",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.min.css"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.video.play.png",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/assets/owl.video.play.png",
       "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.video.play.png"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/owl.carousel.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/owl.carousel.js",
       "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/owlcarousel/owl.carousel.min.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/owlcarousel/owl.carousel.min.js",
       "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.min.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/waypoints/links.php",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/waypoints/links.php",
       "PackagePath": "staticwebassets/lib/waypoints/links.php"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/lib/waypoints/waypoints.min.js",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/lib/waypoints/waypoints.min.js",
       "PackagePath": "staticwebassets/lib/waypoints/waypoints.min.js"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/login.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/login.html",
       "PackagePath": "staticwebassets/login.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/profile.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/profile.html",
       "PackagePath": "staticwebassets/profile.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/register.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/register.html",
       "PackagePath": "staticwebassets/register.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap.scss",
       "PackagePath": "staticwebassets/scss/bootstrap.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_accordion.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_accordion.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_accordion.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_alert.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_alert.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_alert.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_badge.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_badge.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_badge.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_breadcrumb.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_breadcrumb.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_breadcrumb.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_button-group.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_button-group.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_button-group.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_buttons.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_buttons.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_buttons.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_card.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_card.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_card.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_carousel.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_carousel.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_carousel.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_close.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_close.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_close.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_containers.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_containers.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_containers.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_dropdown.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_dropdown.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_dropdown.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_forms.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_forms.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_forms.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_functions.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_functions.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_functions.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_grid.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_grid.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_grid.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_helpers.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_helpers.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_helpers.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_images.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_images.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_images.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_list-group.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_list-group.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_list-group.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_mixins.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_mixins.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_mixins.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_modal.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_modal.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_modal.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_nav.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_nav.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_nav.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_navbar.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_navbar.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_navbar.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_offcanvas.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_offcanvas.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_offcanvas.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_pagination.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_pagination.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_pagination.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_popover.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_popover.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_popover.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_progress.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_progress.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_progress.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_reboot.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_reboot.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_reboot.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_root.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_root.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_root.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_spinners.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_spinners.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_spinners.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_tables.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_tables.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_tables.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_toasts.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_toasts.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_toasts.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_tooltip.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_tooltip.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_tooltip.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_transitions.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_transitions.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_transitions.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_type.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_type.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_type.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_utilities.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_utilities.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_utilities.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/_variables.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/_variables.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/_variables.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap-grid.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap-grid.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/bootstrap-grid.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap-reboot.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap-reboot.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/bootstrap-reboot.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap-utilities.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap-utilities.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/bootstrap-utilities.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/bootstrap.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/bootstrap.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_floating-labels.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_floating-labels.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_floating-labels.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-check.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-check.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_form-check.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-control.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-control.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_form-control.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-range.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-range.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_form-range.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-select.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-select.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_form-select.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-text.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_form-text.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_form-text.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_input-group.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_input-group.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_input-group.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_labels.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_labels.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_labels.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_validation.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/forms/_validation.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/forms/_validation.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_clearfix.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_clearfix.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/helpers/_clearfix.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_colored-links.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_colored-links.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/helpers/_colored-links.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_position.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_position.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/helpers/_position.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_ratio.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_ratio.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/helpers/_ratio.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_stretched-link.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_stretched-link.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/helpers/_stretched-link.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_text-truncation.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_text-truncation.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/helpers/_text-truncation.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_visually-hidden.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/helpers/_visually-hidden.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/helpers/_visually-hidden.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_alert.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_alert.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_alert.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_border-radius.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_border-radius.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_border-radius.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_box-shadow.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_box-shadow.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_box-shadow.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_breakpoints.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_breakpoints.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_breakpoints.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_buttons.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_buttons.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_buttons.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_caret.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_caret.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_caret.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_clearfix.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_clearfix.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_clearfix.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_color-scheme.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_color-scheme.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_color-scheme.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_container.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_container.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_container.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_deprecate.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_deprecate.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_deprecate.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_forms.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_forms.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_forms.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_gradients.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_gradients.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_gradients.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_grid.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_grid.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_grid.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_image.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_image.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_image.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_list-group.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_list-group.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_list-group.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_lists.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_lists.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_lists.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_pagination.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_pagination.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_pagination.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_reset-text.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_reset-text.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_reset-text.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_resize.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_resize.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_resize.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_table-variants.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_table-variants.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_table-variants.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_text-truncate.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_text-truncate.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_text-truncate.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_transition.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_transition.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_transition.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_utilities.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_utilities.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_utilities.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_visually-hidden.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/mixins/_visually-hidden.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/mixins/_visually-hidden.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/utilities/_api.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/utilities/_api.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/utilities/_api.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/scss/bootstrap/scss/vendor/_rfs.scss",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/scss/bootstrap/scss/vendor/_rfs.scss",
       "PackagePath": "staticwebassets/scss/bootstrap/scss/vendor/_rfs.scss"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/shop-detail.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/shop-detail.html",
       "PackagePath": "staticwebassets/shop-detail.html"
     },
     {
-      "Id": "/Users/hieuhee/Documents/MyProject/backend/JavaFlorist/wwwroot/shop.html",
+      "Id": "/Users/tranthimaihien/Documents/fpt/SEM3/flower-java-florist/JavaFlorist/JavaFlorist/wwwroot/shop.html",
       "PackagePath": "staticwebassets/shop.html"
     },
     {

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<JavaFlorist.Models.OccasionModel>
+@*  sửa*@
+@foreach (var item in Model)
+{
+    <div class="container py-2">
+
+        <h1 class="mb-0">@item.Name</h1>
+
+        <div class="owl-carousel vegetable-carousel justify-content-center">
+
+            @foreach (var items in item.ProductModels)
+            {
+                <div class="border border-primary rounded position-relative vesitable-item">
+                    <a asp-action="Detail" asp-controller="Product" asp-route-Slug="@items.Slug">
+                        <div class="vesitable-img img-box">
+                            <img src="~/img/@items.Thumb" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                    </a>
+                        @* <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>*@
+                <div class="p-3 rounded-bottom">
+                    @{
+                        var discount = decimal.Parse(((items.Price * (100 - items.Discount.Discount)) / 100).ToString("0.00"));
+                    }
+                    <a asp-action="Detail" asp-controller="Product" asp-route-Slug="@items.Slug">
+                        @if (@discount != @items.Price)
+                        {
+                            <h4 style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; ">@items.Name</h4>
+                        }
+                        else
+                        {
+                            <h4 style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="mb-4">@items.Name</h4>
+                        }
+                    </a>
+                    <div class="d-flex justify-content-between flex-lg-wrap align-items-center">
+                        <div>
+
+                            @if (@discount != @items.Price)
+                            {
+                                <p class="text-danger font-weight-normal fs-8 mb-0 text-decoration-line-through">$ @items.Price</p>
+                            }
+                            <p class="text-dark fs-5 fw-bold mb-0">$ @discount</p>
+                        </div>
+                        <a asp-action="AddToCard" asp-controller="Cart" asp-route-Id="@item.Id" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                    </div>
+                </div>
+                </div>
+            }
+
+        </div>
+    </div>
+}
+
+

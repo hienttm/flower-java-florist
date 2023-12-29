@@ -12,7 +12,7 @@ namespace JavaFlorist.Models
 
         public string? Detail { get; set; }
 
-        public virtual ICollection<OrderModel> Orders { get; set; } = new List<OrderModel>();
+        public virtual ICollection<OrderDetailModel> OrderDetails { get; set; } = new List<OrderDetailModel>();
     }
 }
 

@@ -29,8 +29,14 @@
 
     <!-- Template Stylesheet -->
     <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/text.css" rel="stylesheet">
+    <link href="~/css/img.css" rel="stylesheet">
     <link href="~/css/Star.css" rel="stylesheet">
     <link href="~/css/SettingAcccount.css" rel="stylesheet">
+
+    <!--SweetAlert 2-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
+    <!-- -->
 </head>
 
 <body>
@@ -49,9 +55,8 @@
                     <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
                 </div>
                 <div class="top-link pe-2">
-                    <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
-                    <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
-                    <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                    <a asp-action="PartnerChanner" asp-controller="Seller" class="text-white"><small class="text-white mx-2">Partner Channel</small>/</a>
+                    <a asp-action="BecomePartner" asp-controller="User" class="text-white"><small class="text-white mx-2">Become a JavaFlorist partner</small>/</a>
                 </div>
             </div>
         </div>
@@ -63,17 +68,22 @@
                 </button>
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
-                        <a asp-action="Index" asp-controller="Home" class="nav-item nav-link active">Home</a>
-                        <a asp-action="Index" asp-controller="product" class="nav-item nav-link">Shop</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a asp-action="Index" asp-controller="Home" class="nav-item nav-link active text-menu">Home</a>
+                        <a asp-action="Index" asp-controller="product" class="nav-item nav-link text-menu">Shop</a>
+                        <a href="contact.html" class="nav-item nav-link text-menu">Contact</a>
                     </div>
-                    <div class="d-flex m-3 me-0">
-                        <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                    <div class="d-flex w-50 m-3 me-0 justify-content-center align-items-center">
+                        <form class="w-75" name="Search" asp-action="Search" asp-controller="Product">
+                            <div class="position-relative w-75 mx-auto">
+                                <input type="search" name="find" class="form-control border-2 border-secondary w-10  rounded-pill" placeholder="Search">
+                                <button type="submit" class="btn btn-primary border-2 border-secondary  position-absolute rounded-pill text-white h-100" style="top: 0; right: 0;"><i class="bi bi-search"></i></button>
+                            </div>
+                        </form>
                         @await Component.InvokeAsync("Cart")
                         @if (User.Identity.IsAuthenticated && User.HasClaim(c => c.Type == "Avatar"))
                         {
 
-                            <div class="position-relative account w50" style="width: 120px; height: 40px; display: flex; flex-direction: row; justify-content: space-around;">
+                            <div class="position-relative account d-flex flex-column align-items-center"  style="width: 120px; height: 60px; display: flex; flex-direction: column; justify-content: space-around;">
                                 <img style="width:32%; object-fit:cover; overflow:hidden; border-radius:20px" src="~/img/customer/@User.FindFirst("Avatar")?.Value" />
                                 <a class="my-auto">
                                     <span>@User.Identity.Name</span>
@@ -120,32 +130,8 @@
     <!-- Hero Start -->
     @RenderBody()
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
-        <div class="container py-5">
-            <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
-                <div class="row g-4">
-                    <div class="col-lg-3">
-                        <a href="#">
-                            <h1 class="text-primary mb-0">Fruitables</h1>
-                            <p class="text-secondary mb-0">Fresh products</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="position-relative mx-auto">
-                            <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Your Email">
-                            <button type="submit" class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white" style="top: 0; right: 0;">Subscribe Now</button>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="d-flex justify-content-end pt-3">
-                            <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-secondary btn-md-square rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 ">
+        <div class="container">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
@@ -154,7 +140,6 @@
                             typesetting, remaining essentially unchanged. It was
                             popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.
                         </p>
-                        <a href="" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -163,9 +148,6 @@
                         <a class="btn-link" href="">About Us</a>
                         <a class="btn-link" href="">Contact Us</a>
                         <a class="btn-link" href="">Privacy Policy</a>
-                        <a class="btn-link" href="">Terms & Condition</a>
-                        <a class="btn-link" href="">Return Policy</a>
-                        <a class="btn-link" href="">FAQs & Help</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -174,19 +156,15 @@
                         <a class="btn-link" href="">My Account</a>
                         <a class="btn-link" href="">Shop details</a>
                         <a class="btn-link" href="">Shopping Cart</a>
-                        <a class="btn-link" href="">Wishlist</a>
-                        <a class="btn-link" href="">Order History</a>
-                        <a class="btn-link" href="">International Orders</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
                         <h4 class="text-light mb-3">Contact</h4>
-                        <p>Address: 1429 Netus Rd, NY 48247</p>
+                        <p>Address: Số 8 Tôn Thất Thuyết, Hà Nội</p>
                         <p>Email: Example@gmail.com</p>
                         <p>Phone: +0123 4567 8910</p>
-                        <p>Payment Accepted</p>
-                        <img src="img/payment.png" class="img-fluid" alt="">
+                        <img src="img/payment12.jpg" class="img-fluid" alt="" style="height: 30px">
                     </div>
                 </div>
             </div>
@@ -226,17 +204,27 @@
     <script src="~/js/main.js"></script>
     <script src="~/js/vote.js"></script>
 
-    <script src="~/js/VoteStarAjax.js"></script>
-
+    <script src="~/js/VoteStar.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6583b4c007843602b8044fb1/1hi57k45f';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();</script>
+    <!--End of Tawk.to Script-->
     <!-- Chat box Ai-->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <df-messenger intent="WELCOME"
-                  chat-title="JavaFlorist-chatAi"
-                  agent-id="c50bd2ed-02e7-4ab4-9438-6abd8d12b74c"
-                  language-code="en" style="bottom:84px; z-index:1100">
+    @*<df-messenger intent="WELCOME"
+                      chat-title="JavaFlorist-chatAi"
+                      agent-id="c50bd2ed-02e7-4ab4-9438-6abd8d12b74c"
+                      language-code="en" style="bottom:84px; z-index:1100">
 
-    </df-messenger>
+        </df-messenger>*@
     @RenderSection("Scripts", required: false)
 
     <script>$(document).ready(function () {
@@ -245,6 +233,11 @@
                 window.location.href = url;
             });
         });</script>
+    <script src="~js/CheckLogin.js"></script>
+    <script src="~/js/Filter.js"></script>
+    <script src="~/js/FilterPrice.js"></script>
+    <!-- SweetAlert2 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
 </body>
 
 </html>

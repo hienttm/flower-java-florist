@@ -11,7 +11,8 @@ namespace JavaFlorist.Helpers
         public AutoMapperProfile()
         {
             CreateMap<UserViewModel, UserModel>();
-
+            CreateMap<ProductVM, ProductModel>();
+            CreateMap<ChangePassword, UserModel>();
         }
     }
 }

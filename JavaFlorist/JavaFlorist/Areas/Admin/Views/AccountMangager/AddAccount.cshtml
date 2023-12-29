@@ -1,0 +1,65 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Add Account";
+}
+<div id="page-wrapper">
+    <div class="main-page">
+        <h4>Add Account</h4>
+        <div class="col-12">
+            <div class="col-md-9">
+                <form asp-action="AddAccount" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label>UserName</label>
+                        <input asp-for="Username" class="form-control" id="title" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input asp-for="Email" class="form-control" id="convert_slug" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input asp-for="Password" class="form-control" id="convert_slug" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input asp-for="Phone" class="form-control" id="convert_slug" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Address</label>
+                        <input asp-for="Address" class="form-control" id="convert_slug" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Roles</label>
+                        <select asp-for="Roles" class="form-control">
+                            <option value="manager"> Manager </option>
+                            <option value="user"> User </option>
+                            <option value="editor"> Editor </option>
+
+                        </select>
+                        <span asp-validation-for="Roles" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <label class="form-label my-3" for="Avatar">Image</label>
+                        <input type="file" asp-for="ImageUpload" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary" onclick="addCategory()">Add</button>
+                    </div>
+                </form>
+                <a asp-action="Index">Back to List Account</a>
+            </div>
+        </div>
+    </div>
+</div>

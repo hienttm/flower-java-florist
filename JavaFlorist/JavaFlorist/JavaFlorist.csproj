@@ -18,6 +18,7 @@
     </PackageReference>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.14" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Repository\" />
@@ -35,6 +36,34 @@
     <None Remove="Services\" />
     <None Remove="Views\Shared\Components\FeaturedProducts\" />
     <None Remove="Views\Shared\Components\RelatedProducts\" />
+    <None Remove="Views\Shared\Components\TabReviews\" />
+    <None Remove="Views\Shared\Components\Hero\" />
+    <None Remove="Views\Shared\Components\HeroSlider\" />
+    <None Remove="Views\Shared\Components\ListItem\" />
+    <None Remove="Views\Shared\Components\BestSeller\" />
+    <None Remove="Views\Shared\Components\BannerContent\" />
+    <None Remove="Views\LookingForAShipUnit\" />
+    <None Remove="Views\PreparingGoods\" />
+    <None Remove="Views\Canceled\" />
+    <None Remove="Views\Delivering\" />
+    <None Remove="Views\Complete\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Admin\Views\Shared\" />
+    <None Remove="Areas\Admin\Views\Home\" />
+    <None Remove="Areas\Admin\Views\Occasion\" />
+    <None Remove="Areas\Admin\Views\Discount\" />
+    <None Remove="Areas\Admin\Views\Product\" />
+    <None Remove="Repository\Validation\" />
+    <None Remove="Areas\Admin\Views\Order\" />
+    <None Remove="Views\Shared\Components\ListOrder\" />
+    <None Remove="Areas\Admin\Views\Login\" />
+    <None Remove="Areas\Admin\Views\AccountMangager\" />
+    <None Remove="Areas\Manager\" />
+    <None Remove="Areas\Manager\Views\" />
+    <None Remove="Areas\Manager\Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repository\" />
@@ -53,8 +82,40 @@
     <Folder Include="Services\" />
     <Folder Include="Views\Shared\Components\FeaturedProducts\" />
     <Folder Include="Views\Shared\Components\RelatedProducts\" />
+    <Folder Include="Views\Shared\Components\TabReviews\" />
+    <Folder Include="Views\Shared\Components\Hero\" />
+    <Folder Include="Views\Shared\Components\HeroSlider\" />
+    <Folder Include="Views\Shared\Components\ListItem\" />
+    <Folder Include="Views\Shared\Components\BestSeller\" />
+    <Folder Include="Views\Shared\Components\BannerContent\" />
+    <Folder Include="Views\LookingForAShipUnit\" />
+    <Folder Include="Views\PreparingGoods\" />
+    <Folder Include="Views\Canceled\" />
+    <Folder Include="Views\Delivering\" />
+    <Folder Include="Views\Complete\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Admin\Views\Home\" />
+    <Folder Include="Areas\Admin\Views\Occasion\" />
+    <Folder Include="Areas\Admin\Views\Discount\" />
+    <Folder Include="Areas\Admin\Views\Product\" />
+    <Folder Include="wwwroot\img\ProductImgAdmin\" />
+    <Folder Include="Repository\Validation\" />
+    <Folder Include="Areas\Admin\Views\Order\" />
+    <Folder Include="Views\Shared\Components\ListOrder\" />
+    <Folder Include="Areas\Admin\Views\Login\" />
+    <Folder Include="wwwroot\account\images\" />
+    <Folder Include="Areas\Admin\Views\AccountMangager\" />
+    <Folder Include="Areas\Manager\" />
+    <Folder Include="Areas\Manager\Views\" />
+    <Folder Include="Areas\Manager\Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\img\customer\" />
+    <Content Remove="wwwroot\img\ProductImgAdmin\" />
+    <Content Remove="wwwroot\account\images\" />
   </ItemGroup>
 </Project>

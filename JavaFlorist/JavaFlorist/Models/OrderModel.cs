@@ -32,12 +32,9 @@ namespace JavaFlorist.Models
 
         public string? Note { get; set; }
 
-        public ICollection<OrderDetailModel> OrderDetails { get; set; } = new List<OrderDetailModel>();
+        public virtual ICollection<OrderDetailModel> OrderDetails { get; set; } = new List<OrderDetailModel>();
 
         public UserModel Users { get; set; } = null!;
-
-        public OrderStatusModel OrderStatus { get; set; } = null!;
-
     }
 }
 

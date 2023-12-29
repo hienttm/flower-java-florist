@@ -1,0 +1,100 @@
+﻿@model IEnumerable<JavaFlorist.ViewModels.CustomerOrderViewModel>
+<div class="container-fluid py-5 mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <!-- sidebar -->
+            <div class="sidebar" style="width: 300px;margin-top: 180px;">
+                <div>
+                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcO2YsYo7eS7M3jgmdzbvw5hjB-ooMasjRd_9zf_yZAqL5bgE3dpyjv8ZAgi6rtBJQdSA&usqp=CAU" alt="" style="width: 65px;height: 65px;">
+                    <span class="fw-bold ms-3">Hieuhee</span>
+                </div>
+                <hr>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link " asp-action="Index" asp-controller="Profile"><i class="bi bi-person"></i> Tài khoản của tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="CustomerOrder" asp-controller="Profile"><i class="bi bi-receipt"></i> Đơn đã mua</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End sidebar -->
+        </div>
+        <div class="col-md-9">
+            <div class="container-fluid contact py-5">
+                <div class="container" style="margin-top: 100px;width: 100%;">
+                    <div class="">
+                        <ul class="list-unstyled d-flex justify-content-between">
+                            <a asp-action="CustomerOrder" asp-controller="Profile">
+                            <li>All</li>
+                            </a>
+                            <a asp-action="Index" asp-controller="PreparingGoods">
+                            <li>Preparing goods</li>
+                            </a>
+                            <a asp-action="Index" asp-controller="LookingForAShipUnit">
+                            <li>Looking for a shipping unit</li>
+                            </a>
+                            <a asp-action="Index" asp-controller="Delivering">
+                            <li>Delivering</li>
+                            </a>
+                            <a asp-action="Index" asp-controller="Complete">
+                            <li>Complete</li>
+                            </a>
+                            <a asp-action="Index" asp-controller="Canceled">
+                            <li>Canceled</li>
+                            </a>
+                            <a asp-action="Index" asp-controller="Return">
+                            <li>Return/Refund</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+                <div class="container">
+                    @foreach (var item in Model)
+                    {
+                        <div class="p-5 bg-light rounded" style="margin-top: 80px;">
+                            <div class="col-lg-12 d-flex justify-content-around" style="margin-left: -100px;">
+                                <div class="">
+                                    <img src="https://hoatuoiquan7.com/upload/sanpham/hoa-sinh-nhat-(5)-2473.jpg" alt="" style="width: 130px;
+                                    height: 120px;">
+                                </div>
+                                <div>
+                                    <p>@item.NameProduct</p>
+                                    <span>Số Lượng:</span>
+                                    <span class="ms-3">x @item.Quantity</span>
+                                </div>
+                                <!-- price -->
+                                <div>
+                                    <span>$@item.Price</span>
+                                </div>
+                                <!-- end price -->
+                            </div>
+                            <hr>
+                            <div class="mb-3 float-end">
+                                <span> Thành tiền:</span>
+                                <span class="fw-bold">$ @item.Total</span>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>Your order is being prepared</p>
+                                </div>
+                                <div class="col-md-8  d-flex justify-content-end" style="height: 50px;">
+                                    <a class="btn btn-info ms-1">Contact Seller</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+

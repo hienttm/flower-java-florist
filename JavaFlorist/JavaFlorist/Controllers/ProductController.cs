@@ -6,6 +6,7 @@ using JavaFlorist.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace JavaFlorist.Controllers
 {
@@ -81,24 +82,71 @@ namespace JavaFlorist.Controllers
 
         }
 
-		[Authorize]
+        // filter
+        [HttpGet]
+        public IActionResult FilterProducts(string query)
+        {
+			var products = _context.Products.Where(p => p.Status == 1);
+            switch (query)
+            {
+                case "Newest":
+                    products = products.OrderByDescending(p => p.Id);
+                    break;
+                case "Old":
+                    products = products.OrderBy(p => p.Id);
+                    break;
+                case "LowestPrice":
+                    products = products.OrderBy(p => p.Price);
+                    break;
+                case "HighestPrice":
+                    products = products.OrderByDescending(p => p.Price);
+                    break;
+                default:
+                    // Mặc định hiển thị tất cả sản phẩm
+                    break;
+            }
+            var result = products.Select(r => new ProductViewModel
+            {
+                Id = r.Id,
+                Name = r.Name,
+                Description = r.Description,
+                Price = r.Price,
+                Discount = decimal.Parse(((r.Price * (100 - r.Discount.Discount)) / 100).ToString("0.00")),
+                Slug = r.Slug,
+                Image = r.Thumb,
+                Occasion = r.Occasion.Name,
+            });
+            return View(result);
+        }
+
+        
 		[HttpPost]
-		public IActionResult VoteRate(string comment, int rating, int product)
+        [Authorize]
+        public IActionResult VoteRate(string comment, int rating, int product)
 		{
 			var UserId = int.Parse(@User.FindFirst(MySetting.CLAIM_CUSTOMERID)?.Value);
-			var rate = _context.Rates.Where(p => p.ProductId == product).Where(p => p.UserId == UserId).SingleOrDefault();
+			var rate = _context.Rates.Where(p => p.ProductId == product).Where(p => p.UserId == UserId).FirstOrDefault();
             if (rating == 0)
             {
                 return Json(new { success = false, message = "Vui long vote sao" });
             }
             if (rate != null)
 			{
-				rate.Star = rating;
-				rate.Comment = comment;
-				_context.Update(rate);
-				_context.SaveChanges();
-				return Json(new { success = true, message = "Cập nhật thành công" });
-			}
+                var review = new RateModel
+                {
+                    UserId = UserId,
+                    Comment = comment,
+                    Star = rating,
+                    ProductId = product,
+                    CreateTime = DateTime.Now,
+                    UpdateTime = DateTime.Now
+                };
+
+
+                _context.Add(review);
+                _context.SaveChanges();
+                return Json(new { success = true, message = "Đánh giá thành công" });
+            }
 			else
 			{
                 if (rating == 0)
@@ -111,6 +159,8 @@ namespace JavaFlorist.Controllers
 					Comment = comment,
 					Star = rating,
 					ProductId = product,
+					CreateTime = DateTime.Now,
+					UpdateTime = DateTime.Now
 				};
 				
 
@@ -118,6 +168,40 @@ namespace JavaFlorist.Controllers
 				_context.SaveChanges();
 				return Json(new { success = true, message = "Đánh giá thành công" });
 			}
+        }
+
+        [HttpGet]
+        public IActionResult FilterByPrice(decimal Price)
+        {
+            var data = _context.Products.Include(d => d.Discount).Include(d => d.Occasion).Where(p => p.Price < Price).ToList();
+            var result = data.Select(r => new ProductViewModel
+            {
+                Id = r.Id,
+                Name = r.Name,
+                Description = r.Description,
+                Price = r.Price,
+                Discount = decimal.Parse(((r.Price * (100 - r.Discount.Discount)) / 100).ToString("0.00")),
+                Slug = r.Slug,
+                Image = r.Thumb,
+                Occasion = r.Occasion.Name,
+            });
+            return PartialView("ProductItem", result);
+        }
+
+        [HttpGet]
+        public IActionResult ViewMore()
+        {
+            var product = _context.Products.Include(p => p.Rates).Where(p => p.Rates.Any(r => r.Star >= 4)).AsQueryable();
+            var result = product.Select(r => new ProductViewModel
+            {
+                Id = r.Id,
+                Name = r.Name,
+                Image = r.Thumb,
+                Slug = r.Slug,
+                Price = r.Price,
+                Discount = decimal.Parse(((r.Price * (100 - r.Discount.Discount)) / 100).ToString("0.00")),
+            });
+            return View(result);
         }
 
     }

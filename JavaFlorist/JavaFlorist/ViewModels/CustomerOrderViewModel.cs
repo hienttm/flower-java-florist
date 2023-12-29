@@ -6,6 +6,8 @@ namespace JavaFlorist.ViewModels
 {
 	public class CustomerOrderViewModel
 	{
+		public int Id { set; get; }
+		public int ProductId { set; get; }
 		public string NameProduct { get; set; }
 		public string ImageProduct { get; set; }
 		public int Quantity { get; set; }
